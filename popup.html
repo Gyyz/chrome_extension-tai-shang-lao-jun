@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太上老君说常清静经</title>
+    <style>
+        body { 
+            width: 440px; 
+            height: 580px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="app">
+        <!-- 头部固定区域 -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">太上老君说常清静经</h1>
+                <div class="controls">
+                    <button id="toggleMode" class="btn btn-secondary">模式</button>
+                    <button id="increaseFont" class="btn btn-secondary">A+</button>
+                    <button id="decreaseFont" class="btn btn-secondary">A-</button>
+                    <button id="countBtn" class="btn btn-secondary">计数</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 计数显示区域 -->
+        <div class="count-section">
+            <div class="count-display">
+                <span id="countValue">0</span> 次
+            </div>
+        </div>
+
+        <!-- 内容滚动区域 -->
+        <div class="main-content">
+            <div class="content" id="content">
+                <div class="section">
+                    <h2 class="section-title">老君曰</h2>
+                    <div class="text-content">
+                        <p>大道无形，生育天地；</p>
+                        <p>大道无情，运行日月；</p>
+                        <p>大道无名，长养万物；</p>
+                        <p>吾不知其名，强名曰道。</p>
+                        <p>夫道者：有清有浊，有动有静；</p>
+                        <p>天清地浊，天动地静；</p>
+                        <p>男清女浊，男动女静；</p>
+                        <p>降本流末，而生万物。</p>
+                        <p>清者，浊之源，动者，静之基；</p>
+                        <p>人能常清静，天地悉皆归。</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">老君曰</h2>
+                    <div class="text-content">
+                        <p>夫人神好清，而心扰之；</p>
+                        <p>人心好静，而欲牵之。</p>
+                        <p>常能遣其欲，而心自静；</p>
+                        <p>澄其心，而神自清；</p>
+                        <p>自然六欲不生，三毒消灭。</p>
+                        <p>所以不能者，为心未澄，欲未遣也；</p>
+                        <p>能遣之者：内观其心，心无其心；</p>
+                        <p>外观其形，形无其形；</p>
+                        <p>远观其物，物无其物；</p>
+                        <p>三者既悟，唯见于空。</p>
+                        <p>观空亦空，空无所空；</p>
+                        <p>所空既无，无无亦无；</p>
+                        <p>无无既无，湛然常寂。</p>
+                        <p>寂无所寂，欲岂能生；</p>
+                        <p>欲既不生，即是真静。</p>
+                        <p>真常应物，真常得性；</p>
+                        <p>常应常静，常清静矣。</p>
+                        <p>如此清静，渐入真道；</p>
+                        <p>既入真道，名为得道；</p>
+                        <p>虽名得道，实无所得；</p>
+                        <p>为化众生，名为得道；</p>
+                        <p>能悟之者，可传圣道。</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">老君曰</h2>
+                    <div class="text-content">
+                        <p>上士无争，下士好争；</p>
+                        <p>上德不德，下德执德；</p>
+                        <p>执著之者，不名道德。</p>
+                        <p>众生所以不得真道者，为有妄心；</p>
+                        <p>既有妄心，即惊其神；</p>
+                        <p>既惊其神，即著万物；</p>
+                        <p>既著万物，即生贪求；</p>
+                        <p>既生贪求，即是烦恼；</p>
+                        <p>烦恼妄想，忧苦身心；</p>
+                        <p>便遭浊辱，流浪生死；</p>
+                        <p>常沉苦海，永失真道。</p>
+                        <p>真常之道，悟者自得；</p>
+                        <p>得悟道者，常清静矣！</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">仙人葛翁曰</h2>
+                    <div class="text-content">
+                        <p>吾得真道，曾诵此经万遍。</p>
+                        <p>此经是天人所习，不传下士。</p>
+                        <p>吾昔受之于东华帝君，</p>
+                        <p>东华帝君受之于金阙帝君，</p>
+                        <p>金阙帝君受之于西王母，</p>
+                        <p>西王母皆口口相传，不记文字。</p>
+                        <p>吾今于世，书而录之。</p>
+                        <p>上士悟之，升为天官；</p>
+                        <p>中士修之，南宫列仙；</p>
+                        <p>下士得之，在世长年。</p>
+                        <p>游行三界，升入金门。</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">左玄真人曰</h2>
+                    <div class="text-content">
+                        <p>学道之士，持诵此经者，</p>
+                        <p>即得十天善神，拥护其身。</p>
+                        <p>然后玉符保神，金液炼形。</p>
+                        <p>形神俱妙，与道合真。</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">正一真人曰</h2>
+                    <div class="text-content">
+                        <p>人家有此经，悟解之者，</p>
+                        <p>灾障不干，众圣护门。</p>
+                        <p>神升上界，朝拜高真。</p>
+                        <p>功满德就，相感帝君。</p>
+                        <p>诵持不退，身腾紫云。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部固定区域 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>🙏 愿您常清静，得真道 🙏</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
